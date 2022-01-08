@@ -1,0 +1,10 @@
+{
+    "verbose": true,
+    "ignore": [ "node-modules" ],
+    "watch": [ "src" ],
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "ext": "js,ts,json,",
+    "exec": "npm start"
+}
