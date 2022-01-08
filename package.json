@@ -4,6 +4,7 @@
   "description": "Express with typescript boilerplate (nodemon included)",
   "scripts": {
     "start": "node --inspect -r ts-node/register ./src/app.ts",
+    "dev": "nodemon",
     "build": "tsc",
     "prod": "node ./build/app.js"
   },
