@@ -1,0 +1,13 @@
+version: "3"
+services:
+  backend:
+    restart: "on-failure"
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "4000:3000"
+      - "9229:9229"
+    volumes:
+      - /app/express-app/node_modules
+      - .:/app/express-app
